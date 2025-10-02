@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main(){
 int A = 400000; int B = 350000;
 printf("Harga sepatu A adalah 400000\n");
