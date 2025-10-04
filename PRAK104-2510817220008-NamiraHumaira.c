@@ -1,23 +1,20 @@
-<<<<<<< HEAD
 #include <stdio.h>
 
 int main(){
-int A = 400000; int B = 350000;
-printf("Harga sepatu A adalah 400000\n");
-printf("Harga sepatu B adalah 350000\n"); 
-printf("Sepatu A mendapat diskon 13 persen sehingga harganya menjadi %d\n", A * 87/100);
-printf("Sepatu B mendapat diskon 21 persen sehingga harganya menjadi %d\n", B * 79/100);
-return 0;
-=======
-#include <stdio.h>
+float A = 400000;
+float d1 = 13;
+float rA;
 
+float B = 350000;
+float d2 = 21;
+float rB;
 
-int main(){
-int A = 400000; int B = 350000;
-printf("Harga sepatu A adalah 400000\n");
-printf("Harga sepatu B adalah 350000\n"); 
-printf("Sepatu A mendapat diskon 13 persen sehingga harganya menjadi %d\n", A * 87/100);
-printf("Sepatu B mendapat diskon 21 persen sehingga harganya menjadi %d\n", B * 79/100);
+rA = A - (A * (d1/100));
+rB = B - (B * (d2/100));
+
+printf("Harga sepatu A adalah %.0f\n", A);
+printf("Harga sepatu B adalah %.0f\n", B);
+printf("Sepatu A mendapat diskon %.0f persen sehingga harganya menjadi %.0f\n", d1, rA);
+printf("Sepatu B mendapat diskon %.0f persen sehingga harganya menjadi %.0f\n", d2, rB);
 return 0;
->>>>>>> e7e9e6660fa0d9c189e571242ed1186f958c9abf
 }
