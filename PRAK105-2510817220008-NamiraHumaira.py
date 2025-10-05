@@ -1,7 +1,7 @@
 a = 9
-b = 6
-x = 10
-y = 7
+b = 5
+x = 8
+y = 8
 hasil = (a + b) * x / y
 
 print(f"Variabel a bernilai {a}")
