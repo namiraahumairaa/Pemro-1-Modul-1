@@ -5,4 +5,4 @@ jumlah = a * b / c
 print("Variabel a bernilai", a)
 print("Variabel b bernilai", b)
 print("Variabel c bernilai", c)
-print(f"Jumlah variabel tersebut adalah {jumlah:.6f}")
+print(f" Hasil dari a dikali b dibagi c adalah {jumlah:.6f}")

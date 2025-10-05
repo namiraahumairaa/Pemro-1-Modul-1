@@ -9,6 +9,6 @@ int main ()
     printf("Variabel a bernilai %.0f\n", a); 
     printf("Variabel b bernilai %.0f\n", b); 
     printf("Variabel c bernilai %.0f\n", c); 
-    printf("Jumlah variabel tersebut adalah %f", a*b/c); 
+    printf("Hasil dari a dikali b dibagi c adalah %f", a*b/c); 
     return 0;
 }
