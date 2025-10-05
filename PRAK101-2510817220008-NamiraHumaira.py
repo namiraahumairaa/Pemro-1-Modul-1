@@ -4,4 +4,4 @@ z = 9
 print("Variabel X bernilai", int(x))
 print("Variabel Y bernilai", int(y))
 print("Variabel Z bernilai", int(z))
-print("Jumlah variabel tersebut adalah ",x+y+z)
+print("Jumlah variabel tersebut adalah ",x+y+z) 
