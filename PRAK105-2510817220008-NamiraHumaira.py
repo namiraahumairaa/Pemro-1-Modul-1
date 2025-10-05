@@ -2,7 +2,7 @@ a = 9
 b = 5
 x = 8
 y = 8
-hasil = (a + b) * x / y
+hasil = (a % b) + (x % y)
 
 print(f"Variabel a bernilai {a}")
 print(f"Variabel b bernilai {b}")
