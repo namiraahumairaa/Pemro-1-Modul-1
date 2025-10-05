@@ -1,7 +1,11 @@
-a, b, x, y = 9, 5, 8, 8
-Total = (a % b) + (x % y)
-print("Variabel a bernilai ",a)
-print("Variabel b bernilai ",b) 
-print("Variabel x bernilai ",x)
-print("Variabel y bernilai ",y)
-print("Total sisa bagi dari a dibagi b dan x dibagi y adalah",Total)
+a = 9
+b = 6
+x = 10
+y = 7
+hasil = (a + b) * x / y
+
+print(f"Variabel a bernilai {a}")
+print(f"Variabel b bernilai {b}")
+print(f"Variabel x bernilai {x}")
+print(f"Variabel y bernilai {y}")
+print(f"Hasil dari a ditambah b dikali x dan dibagi y adalah {hasil:.2f}")

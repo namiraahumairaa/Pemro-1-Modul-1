@@ -1,4 +1,6 @@
-a, b, c = 4, 8, 3
+a = 4
+b = 8
+c = 3
 jumlah = a * b / c 
 print("Variabel a bernilai", a)
 print("Variabel b bernilai", b)

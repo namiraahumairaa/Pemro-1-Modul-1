@@ -1,4 +1,6 @@
-mt, jt, phi=5, 14, 3.14
+mt = 5 
+jt = 14
+phi =3.14
 kel=jt/mt
 r=kel/(2*phi)
 print("Diketahui :")
