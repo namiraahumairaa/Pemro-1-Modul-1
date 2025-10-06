@@ -11,6 +11,7 @@ printf("Diketahui :\n");
 printf("Pak Dengklek mengelilingi taman = %.0f Putaran\n",mt);
 printf("Jarak tempuh Pak Dengklek = %.0f Kilometer\n",jt);
 printf("\n");
+printf("Jawaban :\n");
 printf("Jari-jari taman yang dikelilingi Pak Dengklek adalah %.2f Kilometer", r);
 return 0;
-}
+} 

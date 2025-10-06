@@ -1,1 +1,0 @@
-Apakah a sama dengan b? jawabannya adalah {a == b}"
